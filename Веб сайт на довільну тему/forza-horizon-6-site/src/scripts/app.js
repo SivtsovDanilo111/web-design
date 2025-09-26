@@ -144,7 +144,7 @@ function addGalleryListeners() {
 function showGift() {
     const msg = document.getElementById('gift-message');
     if (msg) {
-        msg.textContent = 'Ви отримали Bugatti Chiron!';
+        msg.textContent = 'Ви отримали Bugatti Chiron!!';
         msg.style.display = 'block';
     }
 }
