@@ -1,0 +1,16 @@
+{
+  "name": "forza-horizon-6-site",
+  "version": "1.0.0",
+  "description": "A website dedicated to Forza Horizon 6, showcasing features, news, and community content.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'Build process can be defined here.'"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

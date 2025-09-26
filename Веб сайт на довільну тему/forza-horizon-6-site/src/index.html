@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forza Horizon 6</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <header>
+        <h1>Forza Horizon 6</h1>
+        <nav>
+            <button onclick="showSection('home')">Головна</button>
+            <button onclick="showSection('about')">Про гру</button>
+            <button onclick="showSection('gallery')">Галерея</button>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="active">
+            <h2>Ласкаво просимо на сайт про Forza Horizon 6!</h2>
+            <p>
+                Тут ви знайдете найсвіжіші новини, інформацію про гру, скріншоти та відео з нової частини легендарної гоночної серії Forza Horizon.
+            </p>
+        </section>
+        <section id="about">
+            <h2>Про гру</h2>
+            <p>
+                <strong>Forza Horizon 6</strong> — це очікуване продовження популярної серії аркадних автосимуляторів від Playground Games та Xbox Game Studios. 
+                Гра обіцяє ще більший відкритий світ, нові автомобілі, покращену графіку та реалістичну фізику. 
+                За чутками, події гри розгорнуться у новій країні з унікальними ландшафтами та погодними умовами. 
+                Очікується підтримка мультиплеєра, нові режими змагань та глибока кастомізація авто.
+            </p>
+            <p>
+                Дата виходу та деталі офіційно ще не оголошені, але фанати з нетерпінням чекають на анонси від розробників.
+            </p>
+        </section>
+        <section id="gallery">
+            <h2>Галерея</h2>
+            <p>Тут будуть розміщені скріншоти та відео з Forza Horizon 6.</p>
+            <!-- Можна додати зображення, наприклад: -->
+            <!-- <img src="assets/screenshot1.jpg" alt="Скріншот Forza Horizon 6"> -->
+        </section>
+    </main>
+    <footer>
+        © 2025 Forza Horizon 6 Fan Site
+    </footer>
+    <div class="gift-btn-wrapper">
+        <button class="gift-btn" onclick="showGift()">Подарунок</button>
+    </div>
+    <div id="gift-message" style="text-align:center; font-size:1.5rem; color:#ff3cac; margin:20px 0 0 0; display:none;"></div>
+    <script src="scripts/app.js"></script>
+</body>
+</html>
